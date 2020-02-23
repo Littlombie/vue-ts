@@ -9,6 +9,8 @@
     ]
   },
   "rules": {
+    "no-console": [true, "log", "dir", "table"],
+    "semicolon": [true, "never"],
     "indent": [true, "spaces", 2],
     "interface-name": false,
     "no-consecutive-blank-lines": false,

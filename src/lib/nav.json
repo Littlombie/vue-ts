@@ -1,0 +1,16 @@
+[
+  {
+    "code": 1,
+    "name": "home",
+    "title": "首页",
+    "icon": "",
+    "children": []
+  },
+  {
+    "code": 2,
+    "name": "about",
+    "title": "关于我们",
+    "icon": "",
+    "children": []
+  }
+]
