@@ -14,5 +14,9 @@ import { Component, Vue } from 'vue-property-decorator'
 export default class Nav extends Vue {}
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
+  .nav-list a {
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
 </style>

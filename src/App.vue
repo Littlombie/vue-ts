@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <Header/>
+    <Nav/>
     <router-view></router-view>
   </div>
 </template>
@@ -8,17 +10,20 @@
 import { Component, Vue } from 'vue-property-decorator'
 import Home from './views/Home.vue'
 import Nav from '@/components/nav.vue'
+import Header from '@/components/header.vue'
 
 @Component({
   components: {
     Home,
     Nav,
+    Header,
   },
 })
 export default class App extends Vue {}
 </script>
 
-<style lang="scss">
+<style lang="less">
+@import './assets/less/app.less';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
